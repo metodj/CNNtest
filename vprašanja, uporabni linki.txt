@@ -1,0 +1,8 @@
+﻿vprašanja:
+- kako je z inputom, v kakšni obliki je 3D slika predstavljena v pythonu?
+- kako je z učinkovitostjo najine "layer" strukture?
+- features?? (zadnji stolpec v tabeli 7)
+- kako zraven pripeljati "optimizer", npr. Adam optimizer in loss function?
+
+residual blocks primer:
+https://github.com/Lasagne/Lasagne/issues/531
