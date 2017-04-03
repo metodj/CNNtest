@@ -1,0 +1,23 @@
+﻿vprašanja:
+- kako je z inputom, v kakšni obliki je 3D slika predstavljena v pythonu?
+- features?? (zadnji stolpec v tabeli 7)
+- pravi loss metric (jaccard index)?
+- DECONVOLUTION LAYER??
+- INTERPOLATION LAYER??
+lasagne.layers.TransformerLayer(incoming, localization_network, downsample_factor=1, **kwargs)
+-
+
+(- kako zraven pripeljati "optimizer", npr. Adam optimizer in loss function?)
+(- kako je z učinkovitostjo najine "layer" strukture?)
+
+residual blocks primer:
+https://github.com/Lasagne/Lasagne/issues/531
+
+primer dodajanja "optimizer"-ja in "loss function" v model, glej vrstice 70-72:
+https://github.com/MinhazPalasara/keras/blob/master/examples/cifar10_cnn.py
+
+primer CNN (iz lasagne tutorial):
+https://github.com/Lasagne/Lasagne/blob/master/examples/mnist.py
+
+tutorial po katerem bi lahko naredila prvi poskus ponovitve:
+https://github.com/Lasagne/Lasagne
