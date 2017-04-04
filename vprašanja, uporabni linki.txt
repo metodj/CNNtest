@@ -39,4 +39,19 @@ https://github.com/Lasagne/Lasagne
 
 residual blocks primer:
 https://github.com/Lasagne/Lasagne/issues/531
->>>>>>> 7b58ecb8af0579757029ede395bcc4f26208ec24
+
+conv3dtranspose, conv2dtranspose source koda (tflearn, tensorflow wrapper):
+https://github.com/tflearn/tflearn/blob/master/tflearn/layers/conv.py
+
+
+conv2dtranspose (lasagne):
+
+video za deconvolution:
+https://www.youtube.com/watch?v=ByjaPdWXKJ4&feature=youtu.be&t=16m59s
+
+example of 2d deconv:
+https://gist.github.com/akiross/754c7b87a2af8603da78b46cdaaa5598
+
+članek od deconvolution:
+http://www.matthewzeiler.com/pubs/iccv2011/iccv2011.pdf
+https://github.com/Lasagne/Lasagne/blob/master/lasagne/layers/conv.py
