@@ -55,3 +55,6 @@ https://gist.github.com/akiross/754c7b87a2af8603da78b46cdaaa5598
 članek od deconvolution:
 http://www.matthewzeiler.com/pubs/iccv2011/iccv2011.pdf
 https://github.com/Lasagne/Lasagne/blob/master/lasagne/layers/conv.py
+
+članek o conv transpose (glej appendix):
+https://arxiv.org/pdf/1602.05110.pdf
