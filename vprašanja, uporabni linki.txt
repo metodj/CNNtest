@@ -44,7 +44,10 @@ conv3dtranspose, conv2dtranspose source koda (tflearn, tensorflow wrapper):
 https://github.com/tflearn/tflearn/blob/master/tflearn/layers/conv.py
 
 
-conv2dtranspose (lasagne):
+conv2dtranspose (lasagne): https://github.com/Lasagne/Lasagne/blob/master/lasagne/layers/conv.py
+
+conv3dtranspose (theano): https://github.com/Theano/Theano/blob/master/theano/tensor/nnet/ConvTransp3D.py
+(mislm da bi lahko to uporabli, ker ce pogledas kako je v lasagne/layers/conv.py implementirana Conv3D - taku, da klice funkcijo theana za 3d konvolucijo, bi lahko isto nardili za dekonvolucijo. edino nevem, kaku tocno tu dodat, ker teli layeri so neki razredi; morda mi uspe za vikend se kej pogledat)
 
 video za deconvolution:
 https://www.youtube.com/watch?v=ByjaPdWXKJ4&feature=youtu.be&t=16m59s
