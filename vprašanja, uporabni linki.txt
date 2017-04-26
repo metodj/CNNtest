@@ -61,3 +61,6 @@ https://github.com/Lasagne/Lasagne/blob/master/lasagne/layers/conv.py
 
 članek o conv transpose (glej appendix):
 https://arxiv.org/pdf/1602.05110.pdf
+
+jaccard-index (lasagne implementation):
+https://github.com/Lasagne/Lasagne/commit/cdb6bf99bb8b73bee909b032b3f5fcfee900fb13
